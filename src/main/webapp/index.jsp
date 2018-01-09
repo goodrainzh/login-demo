@@ -8,7 +8,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <title>login page</title>
 </head>
 <body>
-    <form action="servlet/loginServlet" method="post">
+    <form action="servlet/LoginServlet" method="post">
             <table border="0" al align="center">
                 <tr>
                 <td>用户名：</td>
