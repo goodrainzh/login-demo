@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.goodrain.samples</groupId>
-  <artifactId>login-test</artifactId>
+  <groupId>net.goodrain.sample</groupId>
+  <artifactId>demo-login</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>login-test Maven Webapp</name>
+  <name>demo-login Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,7 +16,8 @@
     </dependency>
   </dependencies>
   <build>
-  <plugins>
+    <finalName>demo-login</finalName>
+    <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -47,6 +48,5 @@
                 </executions>
             </plugin>
         </plugins>
-    <finalName>login-test</finalName>
   </build>
 </project>

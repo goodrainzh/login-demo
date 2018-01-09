@@ -8,6 +8,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <title>login page</title>
 </head>
 <body>
-        欢迎${sessionScope.username}登录
+        欢迎<% ${sessionScope.username} %>登录
 </body>
 </html>
